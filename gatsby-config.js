@@ -6,5 +6,7 @@ module.exports = {
     title: `gatsby-incremental-build-ko`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-postcss',
+  ],
 }
